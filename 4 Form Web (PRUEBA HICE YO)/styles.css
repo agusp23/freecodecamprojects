@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 4rem;
+}
+#description{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#survey-form{
+    text-align:start;
+    padding: 1.5em;
+    align-items: center;
+}
+
+section{
+    background-color: rgba(250, 250, 250, 0.4);
+    border-radius: 15px;
+    margin: auto;
+    max-width: 704.78px;
+    
+}
+
+input, select {
+    height: 2em;
+    border-radius: 3px;
+    border-color: #aaa;
+    border-style: solid;
+}
+
+label{
+    display: grid;
+    margin: 6px 2em 10px 2em;
+    font-size: 1.2rem;
+
+}
+
+p{
+    font-size: 1.5em;
+    padding-left: 4vb;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+select, option{
+    height: 30px;
+    border-radius: 3px;
+    border-color: #aaa;
+    width: 100%;
+}
+
+#radio, #check{
+    display: flex;
+    accent-color:rgb(29, 153, 155);
+    margin: 3%;
+
+}
+
+input:hover, select:hover{
+    border-color: rgba(34,193,195,1)  ;
+}
+
+#opinion{
+    height: 20vw;
+    max-height: 150px;
+    width: 100%;
+    resize: none;
+    margin: auto;
+    border-radius: 4px;
+}
+
+#submit{
+    background-color: rgb(31, 169, 135);
+    border-color: rgb(31, 169, 135);
+    width:  100%;
+    margin-left: auto;
+    margin-right: auto;
+}

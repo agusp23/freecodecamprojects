@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<!--Aca mas o menos me tomaron prueba jeje (saque 10)-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prueba Mortifera fCC</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Este es un Formulario exquisito</h1>
+        <p id="description">Estoy creando un formulario paso a paso para pasar una prueba muy importante en freeCodeCamp</p>
+    </header>
+
+    <main>
+
+        <section>
+            <form id="survey-form">
+                <div>
+                    <label id="name-label" for="text">
+                        Tu nombre:
+                        <input placeholder="Ingresá tu nombre" required type="text" id="name">
+                    </label>
+                </div>
+                <div>
+                    <label id="email-label" for="email">
+                        Tu email:
+                        <input placeholder="Ingresá to correo electrónico" required type="email" id="email">
+                    </label>
+                </div>
+                <div>
+                    <label id="number-label" for="number">
+                        Tu edad (opcional):
+                        <input placeholder="Ingresá tu edad" required type="number" id="number" min="18" max="124">
+                    </label>
+                </div>
+                <div>
+                    <label id="dropdown">
+                        Cuáles son tus pasatiempos preferidos?
+                        <select id="dropdown">
+                            <option selected>(Seleccionar)</option>
+                            <option>Hacer deporte</option>
+                            <option>Mirar TV, series, películas(entretenimiento)</option>
+                            <option>Programar</option>
+                            <option>Asesinar orugas a sangre fría</option>
+                        </select>                
+                    </label>
+                </div>    
+                <div>
+                    <p>Cual olor preferís de estos?</p>
+                    <label id="radio"><input id="radio-inp" type="radio" name="eleccion" value="eleccion-valor">El olor de una rosa recién cortada</label>
+                    <label id="radio"><input id="radio-inp" type="radio" name="eleccion" value="eleccion-valor">El olor de una torta recién salida del horno</label>
+                    <label id="radio"><input id="radio-inp" type="radio" name="eleccion" value="eleccion-valor">El olor del parque a pasto mojado cuando termina de llover</label>
+                    <label id="radio"><input id="radio-inp" type="radio" name="eleccion" value="eleccion-valor">El olor imponente de un perfume francés que vale millones</label>
+                </div>    
+                <div>
+                    <p>Cuáles de estos lenguajes dominás mejor?</p>
+                    <label id="check"><input type="checkbox" value="seleccionar">HTML, con CSS y JavaScript</label>
+                    <label id="check"><input type="checkbox" value="seleccionar">Python</label>
+                    <label id="check"><input type="checkbox" value="seleccionar">Java</label>
+                    <label id="check"><input type="checkbox" value="seleccionar">C</label>
+                </div>
+                <div>
+                    <label>Si tenés más comentarios sobre nuestra página, dejalos acá: 
+                    <textarea placeholder="Opiniones" name="opinion" id="opinion" cols="30" rows="10"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <input value="Enviar" type="submit" id="submit">
+                </div>
+            </form>
+        </section>
+        
+    </main>
+</body>
+</html>
